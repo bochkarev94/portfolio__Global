@@ -14,7 +14,7 @@ function init () {
     myGeoObjects = new ymaps.Placemark([55.747955568986455,37.627202499999946],{
                     },{
                     iconLayout: 'default#image',
-                    iconImageHref:'../icons/map.png', 
+                    iconImageHref:'./icons/map.png', 
                     iconImageSize: [51, 63],
                     iconImageOffset: [-55, -35]
     });
