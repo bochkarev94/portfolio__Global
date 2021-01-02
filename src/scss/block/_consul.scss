@@ -1,0 +1,61 @@
+.consul {
+    padding-top: 56px;
+    padding-bottom: 58px;
+    &__inputs {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 6px;
+    }
+    form {
+        position: relative;
+        top: 71px;
+        max-width: 1140px;
+        height: 166px;
+        border: 1px solid #898989;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    .wrapper {
+        position: absolute;
+        left: 50%;
+        top: -60px;
+        transform: translateX(-50%);
+        z-index: 10;
+        background-color: #ffffff;
+        width: 122px;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        &__logo {
+            width: 102px;
+            height: 102px;
+            border: 1px solid #e93b3b;
+            border-radius: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        }    
+        input {
+            padding-left: 23px;
+            border-radius: 20px;
+            width: 270px;
+            height: 47px;
+            font-size: 13px;
+            
+            &:focus {
+                outline: none;
+            }
+        }
+        .btn__forms {
+            position: absolute;
+            bottom: -20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 204px;
+            z-index: 10;
+            background-color: #ffffff
+        }
+    }
+}

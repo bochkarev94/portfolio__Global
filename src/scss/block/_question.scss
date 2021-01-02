@@ -1,0 +1,62 @@
+.question {
+    padding-top: 62px;
+    padding-bottom: 79px;
+    background: url('../img/bg/bg_airplane_footer.jpg') center center/cover no-repeat;
+    &__title {
+        text-align: center;
+        background-color: #25333c;
+        padding: 20px 0;
+        color: #ffffff;
+        text-transform: uppercase;
+        h3 {
+            font-size: 19px;
+            font-weight: 700;
+            margin-bottom: 0;
+        }
+        p {
+            font-size: 14px;
+            font-weight: 400;
+            margin-bottom: 0;
+        }
+    }
+
+    &__wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 7px;
+        padding:18px 42px 25px 41px;
+        background-color: rgba($color: #ffffff, $alpha: 0.7);
+        #text {
+            grid-column: 1 / 4;
+            padding: 18px 0 0 25px;
+        }
+        .btn {
+            grid-column: 2 / 3;
+            justify-self: center;
+            margin-top: 11px;
+        }
+        input {
+            padding: 18px 0 18px 27px ;
+            border-radius: 30px;
+            border: 1px solid rgba(0, 0, 0, 0.21);
+            &:active,
+            &:focus {
+                outline: none;
+            }
+        }
+        textarea {
+            border-radius: 15px;
+            border: 1px solid rgba(0, 0, 0, 0.21);
+            height: 81px;
+            resize: none;
+            &:active,
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+    form {
+        max-width: 896px;
+        margin: 0 auto;
+    }
+}

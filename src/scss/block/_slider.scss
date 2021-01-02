@@ -1,0 +1,73 @@
+.clients {
+    padding-top: 57px;
+    padding-bottom: 65px;
+    .slider {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        padding-top: 31px;
+        margin: 0 auto;
+        &__inner {
+            text-align: center;
+             transition: all 1s;
+            &:active,
+            &:focus {
+                outline: none;
+            }
+            &-img {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img {
+                    z-index: 10;
+                }
+            }
+            &-title {
+                color: #3a3a3a;
+                font-size: 14px;
+                font-weight: 300;
+                line-height: 22px;
+                h4 {
+                    font-size: 18px;
+                    font-weight: 700;
+                }
+            }
+        }
+        .slick  {
+            
+            &-prev,
+            &-next {
+                position: absolute;
+                top: 20%;
+                left: -66px;
+                left: 57%;
+                width: 14px;
+                height: 46px;
+                border: none;
+                background-color: rgba($color: #ffffff, $alpha:0.000);
+                z-index: 10;
+                &:active,
+                &:focus {
+                    outline: none;
+                }
+            }
+            &-prev {
+                left: 42%;
+            }
+            &-slide{
+               &:not(.slick-center) {
+                transform: scale(0.5);
+                width: 361px;
+                opacity: 0.3;
+            } 
+            }
+            
+        }
+
+    }
+}
+
+
+
+

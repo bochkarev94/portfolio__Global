@@ -1,0 +1,70 @@
+.footer {
+    padding-top: 24px;
+    padding-bottom: 36px;
+    background-color: #25333c;
+    &__wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    &__logo {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    &__title {
+        margin-left: 43px;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 700;
+    }
+    &__connect {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    &__phone {
+        text-align: right;
+        margin-right: 19px;
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 300;
+        a {
+            display: block;
+            color: #ffffff;
+            font-size: 19px;
+            font-weight: 700;
+        }
+    }
+    &__line {
+        max-width: 1171px;
+        height: 1px;
+        opacity: 0.3;
+        background-color: #fff;
+        margin-top: 26px;
+        margin-bottom: 30px;
+    }
+    &__item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 13px;
+    }
+    &__scratch {
+        color: #ffffff;
+        opacity: 0.6;
+        font-weight: 300;
+    }
+    &__politik {
+        a {
+            color: $main-color;
+            font-weight: 300;
+            text-decoration: underline;
+        }
+    }
+    &__site {
+        color: #ffffff;
+        opacity: 0.6;
+        font-weight: 300;
+    }
+}

@@ -1,0 +1,26 @@
+.manager {
+    margin-top: 90px;
+    padding-top: 58px;
+    padding-bottom: 78px;
+    background: url('../img/bg/bg_manager.jpg') center center/cover no-repeat;
+
+    &__logo {
+        width: 102px;
+        height: 102px;
+        border: 1px solid #ffffff;
+        border-radius: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .title {
+        color: #ffffff;
+        padding-top: 28px;
+    }
+
+    .subtitle {
+        color: #ffffff;
+    }
+}

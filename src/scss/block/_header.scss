@@ -1,0 +1,126 @@
+.header {
+    background: url('../img/bg/bg_airplane_header.jpg') center center/cover no-repeat;
+    height: 100vh;
+    text-align: center;
+    padding-bottom: 82px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 23px;
+        &_media {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+    &__menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        font-weight: 400;
+        &-list {
+            position: relative;
+            list-style: none;
+            padding-left: 13px;
+            padding-right: 16px;
+            border-right: 1px dotted rgba(255, 255, 255, .4);
+            &:last-child {
+                border: 0;
+            }
+            a {
+                color: #ffffff;
+                &:hover {
+                    color: $main-color;
+                }
+            }
+        }
+    }
+    &__phone {
+        text-align: right;
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 300;
+        padding-bottom: 20px;
+        a {
+            display: block;
+            color: #ffffff;
+            font-size: 19px;
+            font-weight: 700;
+            
+        }
+    }
+    &__btn {
+        padding-bottom: 20px;
+        padding-left: 19px;
+    }
+    &__text {
+        color: #ffffff;
+        font-size: 24px;
+        font-weight: 300;
+    }
+    &__title {
+        color: $main-color;
+        font-family: "Roboto Condensed";
+        font-size: 72px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    &__subtitle {
+        color: #ffffff;
+        font-family: "Roboto Condensed";
+        font-size: 42px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+    &__block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 25px;
+        &-line {
+            width: 390px;
+            height: 1px;
+            background: #ffffff;
+        }
+        &-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 100%;
+            background: #ffffff;
+            margin: 0 12px;
+        }
+    }
+    &__icons {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        margin-top: 25px;
+        &-item {
+            color: #ffffff;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 22px;
+            width: 300px;
+            margin-right: 38px;
+            &:last-child {
+                margin-right: 0;
+            }
+            .text {
+                padding-top: 13px;
+            }
+            img {
+                height: 63px;
+            }
+        }
+    }
+    .btn {
+        &__header {
+            width: 230px;
+            height: 57px;
+            margin-top: 39px;
+            font-size: 15px;
+            font-weight: 700;
+        }
+    }
+}

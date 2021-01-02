@@ -1,0 +1,36 @@
+.schema {
+    padding-top: 51px;
+    padding-bottom: 46px;
+    background-color: #f3f3f3;
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        padding-top: 27px;
+    }
+    &__item {
+        text-align: center;
+        width: 250px;
+        margin-right: 30px;
+        margin-bottom: 22px;
+        &:last-child {
+            margin-right: 0;
+        }
+        &-img {
+            height: 57px;
+        }
+        &-title {
+            color: $main-color;
+            font-size: 16px;
+            font-weight: 700;
+        }
+        &-subtitle {
+            color: #3a3a3a;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 20px;
+        }
+    }
+
+}

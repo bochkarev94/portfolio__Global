@@ -1,0 +1,73 @@
+.cards {
+    padding-top: 53px;
+    padding-bottom: 56px;
+    &__wrapper {
+        margin-top: 34px;
+        display: grid;
+        grid-template: minmax(380px,auto) / repeat(4, 1fr);
+        grid-auto-rows: minmax(380px, auto);
+        gap: 28px;
+    }
+    &__item {
+        border: 1px solid #e9e9e9;
+        text-align: center;
+        position: relative;
+        &-title {
+            width: 261px;
+            height: 61px;
+            background-color: #25333c;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #ffffff;
+            font-size: 16px;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+        &-icon {
+            padding-top: 14px;
+            padding-bottom: 10px;
+        }
+        &-subtitle {
+            color: #2e2e2e;
+            font-size: 14px;
+            font-weight: 400;
+            text-transform: uppercase;
+            span {
+                display: block;
+                font-size: 28px;
+                color: $main-color;
+            }
+        }
+        &-info {
+            color: #2e2e2e;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 20px;
+
+        }
+
+        .btn {
+            position: absolute;
+            bottom: 25px;
+            left: 20%;
+        }
+        &_list {
+            color: #2e2e2e;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 20px;
+            padding: 0 20px;
+            &-active {
+                display: none;
+            }
+
+        }
+        &_content{
+            &-active {
+                display: none;
+            }
+        }
+
+    }
+}

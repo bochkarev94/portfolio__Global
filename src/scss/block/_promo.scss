@@ -1,0 +1,39 @@
+.promo {
+    padding-top: 51px;
+    padding-bottom: 57px;
+    .subtitle {
+        padding-top: 30px;
+    }
+    &__wrapper {
+        padding-top: 35px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 30px;
+    }
+    &__item {
+        img {
+            width: 100%;
+        }
+        &-text {
+            padding-top: 25px;
+            color: #3a3a3a;
+            font-size: 14px;
+            line-height: 22px;
+            h4 {
+                color: $main-color;
+                font-size: 18px;
+                font-weight: 700;
+                text-align: center;
+            }
+            p {
+                font-weight: 300;
+                text-align: justify;
+                span {
+                display: block;
+                text-align: center;
+            }
+            }
+            
+        }
+    }
+}
