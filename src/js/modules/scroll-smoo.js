@@ -10,7 +10,7 @@ const scrollSmoothly = () => {
                 const _href = $(this).attr("href");
                 $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
                 $('.hamburger').removeClass('hamburger_active');
-                $('body').toggleClass('no-scroll');
+                 $('body').removeClass('no-scroll');
                 $('.header__menu').toggleClass('header__menu_active');
                 return false;
         })
